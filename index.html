@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="script.js"></script>
     <title>Bullrun</title>
   </head>
-  <body></body>
+  <body class="h-screen p-10">
+    <header>
+      <h1>Logo</h1>
+    </header>
+
+    <main
+      class="my-4 mx-auto w-full border-2 h-4/5 flex flex-col justify-start items-center border-red-500 p-6"
+    >
+      <section id="rules" class="border p-3">
+        <h3>Some Rules Here</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+          placeat! Nostrum, deleniti enim! Amet voluptatem consequuntur dicta
+          quia praesentium, aspernatur tempora? Veniam possimus quam mollitia
+          impedit hic inventore fuga reprehenderit.
+        </p>
+      </section>
+      <button id="start" class="border mx-auto">Start Game</button>
+
+      <section id="stock-choices" class="hidden">
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+        <div class="stocks">TSLA</div>
+      </section>
+
+      <section id="interface" class="hidden">
+        <section id="user-portfolio"></section>
+        <button id="buy-stock">Buy</button>
+      </section>
+    </main>
+  </body>
 </html>
